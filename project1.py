@@ -42,6 +42,7 @@ for x in range (0, im1.width):
                 pixelList = []
                 for image in images:
                         pixelList.append(image.getpixel((x,y)))
+                print("working on it")
                 pixelList.sort()
                 medianPixel = pixelList[4]
                 outImage.putpixel((x,y),medianPixel)
