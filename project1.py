@@ -47,7 +47,7 @@ for x in range (0, im1.width):
                 medianPixel = pixelList[4]
                 outImage.putpixel((x,y),medianPixel)
                 #print("working on it...")
-                
+outImage.save("outImage.png")
 outImage.show()
                 
 
