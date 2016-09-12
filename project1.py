@@ -1,7 +1,7 @@
 #project1.py
 #Joshua Ryan Cruz
 #CST 205 Project 1
-
+#github link https://github.com/jcrzry/CST205Project1
 print("hello there")
 
 
@@ -9,23 +9,26 @@ from PIL import Image
 import statistics
 
 #initializing image variables and loads images into memory;
-im1 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/1.png")
+
+#imagePath = "C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/"
+imagePath = "C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/evalImages/BIT_photos_by_Josh_Kling/"
+im1 = Image.open(imagePath + "1.png")
 im1.load()
-im2 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/2.png")
+im2 = Image.open(imagePath + "2.png")
 im2.load()
-im3 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/3.png")
+im3 = Image.open(imagePath + "3.png")
 im3.load()
-im4 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/4.png")
+im4 = Image.open(imagePath + "4.png")
 im4.load()
-im5 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/5.png")
+im5 = Image.open(imagePath + "5.png")
 im5.load()
-im6 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/6.png")
+im6 = Image.open(imagePath + "6.png")
 im6.load()
-im7 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/7.png")
+im7 = Image.open(imagePath + "7.png")
 im7.load()
-im8 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/8.png")
+im8 = Image.open(imagePath + "8.png")
 im8.load()
-im9 = Image.open("C:/Users/Ryan Cruz/Documents/CSIS/CST 338/CST205Project1/Project1Images/9.png")
+im9 = Image.open(imagePath + "9.png")
 im9.load() 
 
 #array of all images 
